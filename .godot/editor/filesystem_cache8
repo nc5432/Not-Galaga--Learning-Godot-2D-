@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695349674
+icon.svg::CompressedTexture2D::6601965849307992031::1694885777::1694885782::1::::<><>::
+::res://Assets/::1694885859
+::res://Assets/Entities/::1694885859
+::res://Assets/Levels/::1694887855
+space.tscn::PackedScene::4575749329752321840::1694887855::0::1::::<><>::uid://ba357qvuu3um2::::res://Assets/Levels/space_ship.tscn<>res://Assets/Scripts/space_ship.gd
+space_ship.tscn::PackedScene::2446102789745779683::1694887855::0::1::::<><>::uid://bpkntgqwm0ae7::::res://Assets/Sprites/SpaceShipSprites.png
+::res://Assets/Scripts/::1694886731
+space_ship.gd::GDScript::-1::1694886731::0::1::::<>CharacterBody2D<>::
+::res://Assets/Sprites/::1694885911
+SpaceShipSprites.png::CompressedTexture2D::3460720707667911280::1694885911::1694885911::1::::<><>::

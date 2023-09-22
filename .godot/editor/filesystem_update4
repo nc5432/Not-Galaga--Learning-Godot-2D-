@@ -1,0 +1,5 @@
+res://Assets/Levels/space_ship.tscn
+res://Assets/Levels/space.tscn
+res://Assets/Scripts/FPSMonitor.gd
+res://Assets/UI/control.tscn
+res://Assets/Scripts/space_ship.gd
