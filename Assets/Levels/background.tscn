@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://minyg3d2omm7"]
+
+[ext_resource type="Texture2D" uid="uid://xkwewimeu1vp" path="res://Assets/Sprites/imgonline-com-ua-TextureSeamless-6EcMOMWvP7.jpg" id="1_jdwm1"]
+[ext_resource type="Script" path="res://Assets/Scripts/Scroller.gd" id="2_ydlfo"]
+
+[node name="Background" type="Node2D"]
+
+[node name="BG1" type="Sprite2D" parent="."]
+position = Vector2(948, -845)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("1_jdwm1")
+script = ExtResource("2_ydlfo")
+scrollSpeed = 1000.0
+loopHeight = 1443.5
+
+[node name="BG2" type="Sprite2D" parent="."]
+position = Vector2(948, 598.5)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("1_jdwm1")
+script = ExtResource("2_ydlfo")
+scrollSpeed = 1000.0
+loopHeight = 1443.5
+traveled = 250.0

@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6gr6m6cf2u61"]
+[gd_scene load_steps=7 format=3 uid="uid://b6gr6m6cf2u61"]
 
 [ext_resource type="PackedScene" uid="uid://ba357qvuu3um2" path="res://Assets/Levels/space_ship.tscn" id="1_6wnft"]
 [ext_resource type="PackedScene" uid="uid://c2qu5fgo4e7xg" path="res://Assets/UI/control.tscn" id="2_gcbr0"]
+[ext_resource type="PackedScene" uid="uid://minyg3d2omm7" path="res://Assets/Levels/background.tscn" id="3_t3rwu"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_1e56v"]
 
@@ -12,6 +13,9 @@ normal = Vector2(1, 0)
 normal = Vector2(-1, 0)
 
 [node name="Space" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("3_t3rwu")]
+position = Vector2(44, -13)
 
 [node name="SpaceShip" parent="." instance=ExtResource("1_6wnft")]
 position = Vector2(970, 982)
@@ -33,7 +37,5 @@ position = Vector2(1913, 551)
 shape = SubResource("WorldBoundaryShape2D_f0ydw")
 
 [node name="Control" parent="." instance=ExtResource("2_gcbr0")]
-offset_left = 17.0
-offset_top = 23.0
-offset_right = 17.0
-offset_bottom = 23.0
+offset_top = 1.0
+offset_bottom = 1.0
